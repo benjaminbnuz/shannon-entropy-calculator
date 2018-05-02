@@ -28,7 +28,7 @@ This project calculates the Shannon entropy of a given text message based on sym
 
 ## Installation
 
-All the code required to get started is in the file (*lsystem.py*). Only a working installation of Python 3 is necessary [[LINK]](https://www.python.org/).
+All the code required to get started is in the file (*shannon-entropy.py*). Only a working installation of Python 3 is necessary [[LINK]](https://www.python.org/).
 
 ## Features
 
