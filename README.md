@@ -52,7 +52,8 @@ c --> 0.09091 -- 1
 H(X) = 2.04039 bits. Rounded to 2 bits/symbol, 
 it will take 22 bits to optimally encode "abracadabra"
 
-Metric entropy: 0.18549```
+Metric entropy: 0.18549
+```
 
 ## Support
 
