@@ -16,4 +16,40 @@ One may also define the conditional entropy of two events X and Y taking values 
 
 where p(xi, yj) is the probability that X = xi and Y = yj. This quantity should be understood as the amount of randomness in the random variable X given the event Y [[SOURCE]](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
 
+This project calculates the Shannon entropy of a given text message based on symbol frequencies.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [Support](#support)
+- [License](#license)
+
+## Installation
+
+All the code required to get started is in the file (*lsystem.py*). Only a working installation of Python 3 is necessary [[LINK]](https://www.python.org/).
+
+## Features
+
+> TODO
+
+## Usage
+
+> TODO
+
+```
+Sample console
+```
+
+## Support
+
+For questions or comments:
+
+- Author: **Gianni Perez** @ [skylabus.com](https://www.skylabus.com) or at gianni.perez@us.ibm.com
+- [![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/gianni-perez)
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ambron60/l-system-drawing/blob/master/LICENSE.md)
