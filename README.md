@@ -14,5 +14,6 @@ One may also define the conditional entropy of two events X and Y taking values 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex={\displaystyle&space;\mathrm&space;{H}&space;(X|Y)=-\sum&space;_{i,j}p(x_{i},y_{j})\log&space;{\frac&space;{p(x_{i},y_{j})}{p(y_{j})}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\displaystyle&space;\mathrm&space;{H}&space;(X|Y)=-\sum&space;_{i,j}p(x_{i},y_{j})\log&space;{\frac&space;{p(x_{i},y_{j})}{p(y_{j})}}}" title="{\displaystyle \mathrm {H} (X|Y)=-\sum _{i,j}p(x_{i},y_{j})\log {\frac {p(x_{i},y_{j})}{p(y_{j})}}}" /></a>
 
-where p(xi, yj) is the probability that X = xi and Y = yj. This quantity should be understood as the amount of randomness in the random variable X given the event Y [SOURCE](https://en.wikipedia.org/wiki/Entropy_(information_theory)
+where p(xi, yj) is the probability that X = xi and Y = yj. This quantity should be understood as the amount of randomness in the random variable X given the event Y [SOURCE](https://en.wikipedia.org/wiki/Entropy_(information_theory)#Definition).
+
 
