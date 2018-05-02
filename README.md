@@ -32,7 +32,7 @@ All the code required to get started is in the file (*shannon-entropy.py*). Only
 
 ## Features
 
-After user input, the program iterates over the given string (m) separating each character (symbol) and calculating its frequency over the length of m.  Besides Shannon's entropy, values for optimally encoding the message and the metric entropy are also determined.
+After user input, the program iterates over the given string (m) separating each character (symbol) and calculating its frequency (probability) over the length of m.  Besides Shannon's entropy, values for optimally encoding the message and the metric entropy are also determined.
 
 ## Usage
 
