@@ -1,4 +1,4 @@
-# Shannon Entropy Calculator
+# Shannon's Entropy Calculator
 
 Named after Boltzmann's Η-theorem, Shannon defined the entropy Η (Greek capital letter eta) of a discrete random variable X with possible values {x1, ..., xn} and probability mass function P(X) as:
 
@@ -28,18 +28,31 @@ This project calculates the Shannon entropy of a given text message based on sym
 
 ## Installation
 
-All the code required to get started is in the file (*lsystem.py*). Only a working installation of Python 3 is necessary [[LINK]](https://www.python.org/).
+All the code required to get started is in the file (*shannon-entropy.py*). Only a working installation of Python 3 is necessary [[LINK]](https://www.python.org/).
 
 ## Features
 
-> TODO
+After user input, the program iterates over the given string (m) separating each character (symbol) and calculating its frequency over the length of m.  Besides Shannon's entropy, values for optimally encoding the message and the metric entropy are also determined.
 
 ## Usage
 
-> TODO
+This is a sample output of entering the string **"abracadabra"**:
 
 ```
-Sample console
+Enter the message: abracadabra
+
+Symbol-occurrence frequencies:
+
+b --> 0.18182 -- 2
+d --> 0.09091 -- 1
+a --> 0.45455 -- 5
+r --> 0.18182 -- 2
+c --> 0.09091 -- 1
+
+H(X) = 2.04039 bits. Rounded to 2 bits/symbol, 
+it will take 22 bits to optimally encode "abracadabra"
+
+Metric entropy: 0.18549
 ```
 
 ## Support
