@@ -1,4 +1,4 @@
-# Shannon Entropy Calculator
+# Shannon's Entropy Calculator
 
 Named after Boltzmann's Η-theorem, Shannon defined the entropy Η (Greek capital letter eta) of a discrete random variable X with possible values {x1, ..., xn} and probability mass function P(X) as:
 
