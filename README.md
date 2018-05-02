@@ -32,15 +32,27 @@ All the code required to get started is in the file (*shannon-entropy.py*). Only
 
 ## Features
 
-> TODO
+After user input, the program iterates over the given string (m) separating each character (symbol) and calculating its frequency over the length of m.  Besides Shannon's entropy, values for optimally encoding the message and the metric entropy are also determined.
 
 ## Usage
 
-> TODO
+This is a sample output of entering the string **"abracadabra"**:
 
 ```
-Sample console
-```
+Enter the message: abracadabra
+
+Symbol-occurrence frequencies:
+
+b --> 0.18182 -- 2
+d --> 0.09091 -- 1
+a --> 0.45455 -- 5
+r --> 0.18182 -- 2
+c --> 0.09091 -- 1
+
+H(X) = 2.04039 bits. Rounded to 2 bits/symbol, 
+it will take 22 bits to optimally encode "abracadabra"
+
+Metric entropy: 0.18549```
 
 ## Support
 
