@@ -33,11 +33,11 @@ def symbol_frequency(symbolset):
 
 
 def main():
-    msg = input('Enter the message: ')
-    bits = shannon_entropy(msg)
+    m = input('Enter the message: ')
+    bits = shannon_entropy(m)
     print('\nH(X) = {0} bits. Rounded to {1} bits/symbol, '.format(bits, round(bits)))
-    print('it will take {0} bits to optimally encode "{1}"'.format(len(msg) * round(bits), msg))
-    print('\nMetric entropy: %.5f' % (bits / len(msg)))
+    print('it will take {0} bits to optimally encode "{1}"'.format(len(m) * round(bits), m))
+    print('\nMetric entropy: %.5f' % (bits / len(m)))
 
 
 if __name__ == '__main__':
