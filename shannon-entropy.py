@@ -33,7 +33,7 @@ def symbol_frequency(symbolset):
 
 
 def main():
-    m = input('Enter the message: ')
+    m = input('\nEnter the message: ')
     bits = shannon_entropy(m)
     print('\nH(X) = {0} bits. Rounded to {1} bits/symbol, '.format(bits, round(bits)))
     print('it will take {0} bits to optimally encode "{1}"'.format(len(m) * round(bits), m))
